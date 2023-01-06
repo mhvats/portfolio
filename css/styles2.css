@@ -1,0 +1,167 @@
+/* mainpage refers to the background image which is always fixed */
+/* bodysection refers to the part of mainpage with white background */
+/* .bodysection, #bodysectionh1, #callh1 */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Allerta Stencil';
+}
+.mainpage::before{
+    position: absolute;
+    content: "";
+    background-image: url('/images/bg.jpg');
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    top:0px;
+    background-attachment: fixed;
+    /* border:2px solid black; */
+}
+.bodysection{
+    box-shadow:20px 30px 40px grey;
+    background-color:white;
+    margin:80px 30px;
+    color:black;
+    height:600px;
+}
+nav{
+    display:flex;
+}
+#bodysectionh1{
+    color:#ff0040;
+    padding:0px 30px;
+/*     border:2px solid red; */
+}
+.bodysection ul{
+    align-items:center;
+    display:flex;
+}
+.bodysection ul li{
+    font-weight:bold;
+    padding:0px 30px;
+    list-style:none;
+/*     border:2px solid red; */
+}
+span{
+    color:red;
+}
+#callh1{
+    padding-left:600px;
+/*     border:2px solid red; */
+}
+
+.sectionhome {
+    /* box-shadow:10px 5px 5px grey; 
+    background-color:white; */
+    /* padding:0px 100px; */
+/*     border:2px solid grey; */
+    font-size: 4rem;
+    position: absolute;
+    left: 600px;
+    top: 230px;
+    z-index:2;
+}
+section h1{
+    text-shadow:5px 5px 10px #95d744;
+    color:#323f5a
+}
+#graffiti{
+    position:absolute;
+    bottom:0px;
+    height:800px;
+    width:1200px;
+    left:150px;
+    z-index:1;
+    opacity:0.2;
+}
+section footer{
+    position:absolute;
+/*     border:3px solid grey; */
+font-size: .8rem;
+    bottom:60px;
+/*     top:10px; */
+    left:600px;
+/*     right:0; */
+}
+.secondpage{
+    box-shadow:20px 30px 40px grey;
+    background-color:white;
+    margin:80px 30px;
+    color:black;
+    height:600px;
+}
+/*Second page  */
+.mystory{
+    position:absolute;
+    left:400px;
+    bottom:-120px;
+/*     border:2px solid red; */
+    display:inline-block;
+}
+.mystory h1{
+/*     border:2px solid red; */
+/*     position:absolute; */
+/*     display:inline-block; */
+    color:black;
+    text-shadow:0 0 black;
+}
+.secondpagedes{
+/*     align-items:center; */
+    position:absolute;
+    left:450px;
+    bottom:-340px;
+    display:inline-block;
+/*     border:2px solid red; */
+}
+.secondpagedes p{
+    display:inline-block;
+/*     position:absolute; */
+    align-items:center;
+}
+.skills{
+    background-color:#378dca;
+    color:white;
+    bottom:-600px;
+    position:absolute;
+    left:500px;
+    padding:5px 20px;
+    display:inline-block;
+/*     border:2px solid red; */
+}
+.skills p{
+    color:black;
+    display:inlie-block;
+    padding-left:80px;
+/*     border:2px solid black; */
+}
+.skills ul li{
+    list-style:none;
+}
+.secondpageimg img{
+    box-shadow:20px 0px 100px #655c85;
+    position:absolute;
+    bottom:-500px;
+    left:1100px;
+    width:300px;
+    height:300px;
+/*     border:2px solid red; */
+}
+.rick img{
+    position:absolute;
+    bottom:-600px;
+    height:500px;
+}
+.morty img{
+    position:absolute;
+    top:290px;
+}
+.troop img{
+    position:absolute;
+    height:250px;
+    top:550px;
+    left:1250px;
+}
