@@ -1,0 +1,11 @@
+.troop img{
+    height: 500px;
+    width: 500px;
+}
+*{
+    padding: 500px;
+}
+
+body span{
+    color: white;
+}
